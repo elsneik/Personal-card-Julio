@@ -1,1 +1,202 @@
-Este es el repositorio para maquetar nuestra tarjeta personal
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Scheme light mode */
+    --base: #7bf335;
+    --highlight: #000000;
+    --dark: #CC1032;
+    --black: #ffffff;
+    --white: #000000;
+
+    --shadow: #0a0a0a1c;
+
+    --padding-n: 1rem;  /* 16p */
+    --padding-s: 0.75rem; 
+    --padding-xs: 0.5rem;
+}
+body {
+    font-family: 'Dela Gothic One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--base);
+    padding: var(--padding-n);
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+button{
+    border: none;
+}
+
+.foto{border-radius: 85px;}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.brand{
+    max-width: 130px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: .5rem;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 2px 0 rgb(132, 252, 84);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main div:first-child {
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--base);
+    max-width: 200px;
+}
+
+.main div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.main h1 {
+    text-align: center;
+    color: var(--base);
+    font-size: 2.25rem;  /* 36px dividido entre 16px = 2.2rem */
+    line-height: 2.25rem;
+}
+
+.main p {
+    text-align: center;
+    font-size: .75rem;
+    line-height: 1.125rem;
+    color: var(--black);
+}
+
+.main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    gap: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    background-color: var(--base);
+    color: var(--white);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-n);
+}
+
+.footer div {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer p {
+    font-size: 0.75rem;
+}
+
+/*media  q*/
+
+@media screen and (min-width:768px) {
+    .brand{
+        max-width: 160px;
+    }
+    .card {
+        max-width: 560px;
+
+    }
+    .main div:first-child{
+        max-width: 260px;
+    }
+    .main div:last-child{
+        padding: 0 2rem;
+        gap:.75rem;
+    }
+    main p{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .card{
+        gap: 4rem;
+        max-width: 1200px;
+    }
+    .brand{max-width: 220px;
+    }
+    .icon{
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+    .main{
+        flex-direction: row;
+        padding: 0 4rem;
+        gap: 1.25rem;
+    }
+    .main div:first-child{
+        max-width: 360px;
+    }
+    .main div:last-child{
+        max-width: 600px;
+        gap: 1rem;
+        padding: 0;
+    }
+    .main h1{
+        text-align: left;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .main p{ 
+        text-align: left;
+    font-size: 1.2rem;}
+    .main a{
+        align-self: flex-start;
+        font-size: 1.4rem;
+    }    
+
+}
