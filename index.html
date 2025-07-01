@@ -13,14 +13,54 @@
 
         <header class="header">
             <div class="brand">
-                <img src="./assets/Mode=dark.svg" alt="Logo-Elsneik">
+                <img id="logo" src="./assets/Mode=dark.svg" alt="Logo-Elsneik">
             </div>
             <button class="icon" id="toggle-button">
-                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+               
+                <svg class="theme-icon" id="icon-moon" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M35.7496 20.2112C35.4601 23.3437 34.2845 26.329 32.3602 28.8178C30.436 31.3065 27.8428 33.1958 24.884 34.2645C21.9253 35.3333 18.7233 35.5372 15.6528 34.8526C12.5824 34.168 9.77037 32.623 7.5459 30.3985C5.32143 28.1741 3.77649 25.3621 3.09184 22.2916C2.4072 19.2211 2.61118 16.0192 3.67991 13.0604C4.74864 10.1016 6.63792 7.50841 9.12668 5.58419C11.6154 3.65997 14.6007 2.48434 17.7333 2.19485C15.8993 4.67604 15.0167 7.73308 15.2462 10.81C15.4756 13.8868 16.8018 16.7792 18.9836 18.9609C21.1653 21.1426 24.0576 22.4688 27.1345 22.6983C30.2114 22.9277 33.2684 22.0452 35.7496 20.2112Z"
                         stroke="inherit" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
+
+                <svg class="theme-icon" id="icon-sun" width="60" height="52" viewBox="0 0 60 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_30_734)">
+                        <path
+                            d="M30.2222 31.4792C35.304 31.4792 39.4236 27.3596 39.4236 22.2778C39.4236 17.196 35.304 13.0764 30.2222 13.0764C25.1404 13.0764 21.0208 17.196 21.0208 22.2778C21.0208 27.3596 25.1404 31.4792 30.2222 31.4792Z"
+                            stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M30.2222 2.03472V5.71528" stroke="inherit" stroke-width="3.68056" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M30.2222 38.8403V42.5208" stroke="inherit" stroke-width="3.68056" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M15.9048 7.96042L18.518 10.5736" stroke="black" stroke-width="3.68056"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M41.9264 33.9819L44.5396 36.5951" stroke="black" stroke-width="3.68056"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9.97919 22.2778H13.6597" stroke="black" stroke-width="3.68056" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M46.7847 22.2778H50.4653" stroke="black" stroke-width="3.68056" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M15.9048 36.5951L18.518 33.9819" stroke="black" stroke-width="3.68056"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M41.9264 10.5736L44.5396 7.96042" stroke="black" stroke-width="3.68056"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_d_30_734" x="0.777805" y="0.194443" width="58.8889" height="58.8889"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset dy="7.36111" />
+                            <feGaussianBlur stdDeviation="3.68056" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_30_734" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_30_734" result="shape" />
+                        </filter>
+                    </defs>
+                </svg>
+
             </button>
         </header>
 
@@ -83,7 +123,7 @@
         </footer>
 
     </div>
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,25 @@
+<svg width="60" height="52" viewBox="0 0 60 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_30_734)">
+<path d="M30.2222 31.4792C35.304 31.4792 39.4236 27.3596 39.4236 22.2778C39.4236 17.196 35.304 13.0764 30.2222 13.0764C25.1404 13.0764 21.0208 17.196 21.0208 22.2778C21.0208 27.3596 25.1404 31.4792 30.2222 31.4792Z" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.2222 2.03472V5.71528" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.2222 38.8403V42.5208" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.9048 7.96042L18.518 10.5736" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.9264 33.9819L44.5396 36.5951" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.97919 22.2778H13.6597" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46.7847 22.2778H50.4653" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.9048 36.5951L18.518 33.9819" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.9264 10.5736L44.5396 7.96042" stroke="black" stroke-width="3.68056" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_d_30_734" x="0.777805" y="0.194443" width="58.8889" height="58.8889" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="7.36111"/>
+<feGaussianBlur stdDeviation="3.68056"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_30_734"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_30_734" result="shape"/>
+</filter>
+</defs>
+</svg>
